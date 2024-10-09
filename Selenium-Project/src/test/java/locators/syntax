@@ -1,0 +1,8 @@
+xpath formula
+
+//tagName[@attribute='value']
+//tagName[contains(text(),'value')]
+//tagName[starts-with(text(),'value')]
+//tagName[starts-with(@attribute,'value')]
+//tagName[starts-with(@attribute,'value') or @attribute='value']
+//tagName[starts-with(@attribute,'value') and @attribute='value']
